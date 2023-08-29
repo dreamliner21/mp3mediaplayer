@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Media Player</h1>
+    <audio id="audioPlayer" controls src="default.mp3"></audio>
+    <div class="volume-container">
+      <input id="volumeBar" type="range" min="0" max="1" step="0.1" value="1">
+      <span id="volumePercentage">100%</span>
+    </div>
+    <ul id="playlist">
+      <li onclick="playSong('Macak Kelaran  Damara De feat Tadeus Lavora Official Music Video.mp3')">Macak Kelaran  Damara De feat Tadeus Lavora Official Music Video</li>
+      <li onclick="playSong('Tiara Andini  Tega Official Music Video.mp3')">Tiara Andini  Tega Official Music Video</li>
+      <li onclick="playSong('Vadesta Ft Destya Eka  Saktenane Acoustic Version.mp3')">Vadesta Ft Destya Eka  Saktenane Acoustic Version</li>
+    </ul>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
